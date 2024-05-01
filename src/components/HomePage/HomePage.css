@@ -1,0 +1,16 @@
+
+.home-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.highlight{
+    color: #ae00ff;
+    font-weight: bold;
+}
+
+.heading{
+    font-size: 45px;
+}

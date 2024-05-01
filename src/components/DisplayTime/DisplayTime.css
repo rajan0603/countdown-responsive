@@ -1,0 +1,40 @@
+.card-container {
+    max-width: 800px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 40px 0px;
+}
+
+.card{
+    background-color: linear-gradient(
+        to bottom left,
+        rgb(1, 238, 255),
+        rgb(255, 0, 255)
+    );
+    color: #dcd6f7;
+    font-size: 50px;
+    font-weight: 700;
+    box-shadow: 10px 5px 15px rgba(0, 0, 0, 0.1);;
+    border-radius: 10px;
+    width: 160px;
+    height: 160px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    
+}
+
+.card-text{
+    font-size: 30px;
+    color: #a6b1e1;
+}
+
+.message{
+    color: #ae00ff;
+    font-weight: bold;
+}
